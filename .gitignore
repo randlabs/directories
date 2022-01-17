@@ -3,6 +3,7 @@
 *.log
 *.swp
 .idea
+.vscode
 *.patch
 ### Go template
 # Binaries for programs and plugins
@@ -21,4 +22,4 @@
 app
 demo
 
-vendor/
+vendor/*
