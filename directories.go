@@ -1,13 +1,3 @@
-/*
-Helper cross-platform Golang library to retrieve commonly used directories.
-
-Source code and other details for the project are available at GitHub:
-
-	https://github.com/RandLabs/rundown-protection
-
-More usage please see README.md and tests.
-*/
-
 package directories
 
 import (
@@ -22,9 +12,9 @@ import (
 type Location int
 
 const (
-	Home Location = 1
-	AppSettings = 2
-	SystemSettings = 3
+	Home           Location = 1
+	AppSettings             = 2
+	SystemSettings          = 3
 )
 
 var appName string
