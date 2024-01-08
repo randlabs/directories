@@ -19,4 +19,4 @@ if err == nil {
 
 ## License
 
-[Apache](/LICENSE)
+See [LICENSE](/LICENSE) file for details.
